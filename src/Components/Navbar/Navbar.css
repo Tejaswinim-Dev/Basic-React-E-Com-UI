@@ -1,0 +1,38 @@
+.Navbar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  }
+  .title {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    width: 35%;
+    display: flex;
+    align-items: center;
+  }
+  .nextlinks {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .links a,
+  .nextlinks a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  .nextlinks a {
+    margin-right: 20px;
+  }
+

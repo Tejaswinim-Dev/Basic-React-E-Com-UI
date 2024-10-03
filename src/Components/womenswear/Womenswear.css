@@ -1,0 +1,37 @@
+.womenswear{
+    margin: 50px;
+}
+.card{
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.heading{
+  margin-top: 20px;
+}
+.carousel-4 {
+
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  animation: slide-animation4 25s infinite; /* Adjust timing as needed */
+}
+
+@keyframes slide-animation4 {
+  0% {
+    background-image: url('https://s.tmimgcdn.com/scr/400x250/71600/top-selling-fashion-store-multipage-html5-website-template_71681-0-original.jpg');
+  }
+  25% {
+    background-image: url('https://s.tmimgcdn.com/scr/400x250/71400/fashion-day-fashion-shop-multipage-html-website-template_71436-0-original.jpg');
+  }
+  50% {
+    background-image: url('https://www.sliderrevolution.com/wp-content/uploads/2023/06/fashion-website-templates.jpg');
+  }
+  75% {
+    background-image: url('https://cdn.motocms.com/src/868x580/71400/71467-original-1200.jpg');
+  }
+  100% {
+    background-image: url('https://s.tmimgcdn.com/scr/800x500/65600/ultima-multipage-fashion-store-website-template_65616-original.jpg');
+  }
+}

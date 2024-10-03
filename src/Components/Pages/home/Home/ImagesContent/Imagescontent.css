@@ -1,0 +1,89 @@
+.card-with-text{
+    display: flex;
+    margin: 30px;
+    color: white;
+}
+.card-with-text h3{
+    font-weight:bolder ;
+    text-align: center;
+}
+
+.cwt-1{
+    background-image: url(https://vanallansmensfashion.com/wp-content/uploads/bb-plugin/cache/prom-picture-suit-and-tuxedos-20-Feb-2020-1-square.jpg);
+    width: 900px;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display:flex ;
+   
+}
+
+.c11{
+    background-color: rgba(0,0,0,0.7);
+    height: 470px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c11 p{
+    width: 70%;
+    margin-left: 150px;
+}
+
+.cwt-2{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 20px 20px;
+    cursor: pointer;
+    
+   
+}
+.cwt-21{
+    background-image: url(https://digitalscholar.in/wp-content/uploads/2022/03/fashion-influencers-on-instagram-in-india.webp);
+    width: 650px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    display:flex ;
+  
+}
+
+.cwt-22{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-1422688277-6402a7cbb64f0.jpg?crop=0.668xw:1.00xh;0.220xw,0&resize=360:*);
+    width: 650px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    text-align: center;
+    align-items: center;
+   
+}
+.c21{
+    background-color: rgba(0,0,0,0.7);
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.c21 p{
+    width: 68%;
+    margin-left: 120px;
+}
+.c22{
+    background-color: rgba(0,0,0,0.7);
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.c22 p{
+    width: 70%;
+    margin-left: 90px;
+    
+}

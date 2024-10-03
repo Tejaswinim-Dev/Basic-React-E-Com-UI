@@ -1,0 +1,37 @@
+.jewelry{
+    margin: 50px;
+}
+.card{
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.heading{
+  margin-top: 20px;
+}
+.carousel-2 {
+
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  animation: slide-animation2 16s infinite; /* Adjust timing as needed */
+}
+
+@keyframes slide-animation2 {
+  0% {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPER4DZsT_a9hbeywyXIVNkhLQ1bwjIJObMQ&s');
+  }
+  25% {
+    background-image: url('https://themeforest.img.customer.envatousercontent.com/files/491214495/02_sp-diamond-preview.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=65b10f9a369fa270f735cac1837515f5');
+  }
+  50% {
+    background-image: url('https://themeforest.img.customer.envatousercontent.com/files/483847796/590x300px.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=bfa1162ebe6ab536e8a7856368695060');
+  }
+  75% {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvhUnlWekr76o5LfGE7HKg61U843JVplFWqISU4bG90AAXZvy5_dE_hQ8ITmQbxkZAKA&usqp=CAU');
+  }
+  100% {
+    background-image: url('https://templatesjungle.com/wp-content/uploads/edd/2024/04/accesories-jewelry-shop-free-ecommerce-bootstrap-5-html-css-website-template-cover-1024x768.jpg');
+  
+  }
+}

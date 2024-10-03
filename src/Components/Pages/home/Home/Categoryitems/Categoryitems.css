@@ -1,0 +1,24 @@
+
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    margin: 15px;
+    background-color:white;
+    border: 2px solid white;
+
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.category img{
+    border-radius: 40%;
+    height: 100px;
+    width: 80px;
+}
+.category a{
+    text-decoration: none;
+    color: black;
+}

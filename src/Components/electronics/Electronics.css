@@ -1,0 +1,36 @@
+.electronics{
+    margin: 20px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.card{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.carousel-1 {
+
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    animation: slide-animation1 18s infinite; /* Adjust timing as needed */
+  }
+  
+  @keyframes slide-animation1 {
+    0% {
+        background-image: url('https://images.crutchfieldonline.com/ImageBank/v20210524170100/brands/storefront/Infinity.jpg');
+      }
+      25% {
+        background-image: url('https://cdn.thingiverse.com/assets/9e/05/87/07/32/large_display_2.JPG');
+      }
+      50% {
+        background-image: url('https://strapi.dhiwise.com/uploads/flutter_carousel_OG_Image_9cbaf3e582.png');
+      }
+      75% {
+        background-image: url('https://codefrix.com/blog/wp-content/uploads/2022/12/prog-1024x576.jpg');
+      }
+      100% {
+        background-image: url('https://my.infinityspeakers.com/on/demandware.static/-/Sites-INF-APAC-NCOM-Library/default/dw2f355ea0/home-hero-carousel/SC03651_Infinity_My_Homepage_TRANZ_700_HTML_Banners_1400x536.jpg');
+      }
+  }

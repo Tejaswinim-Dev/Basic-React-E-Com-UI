@@ -1,0 +1,38 @@
+.menswear{
+    margin: 50px;
+}
+.heading{
+  margin-top: 20px;
+}
+.card{
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.carousel-3 {
+
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  animation: slide-animation3 16s infinite; /* Adjust timing as needed */
+}
+
+@keyframes slide-animation3 {
+  0% {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtW13xfChlbciMzB0batLUr9_NEcYDPKiJnQ&s');
+  }
+  25% {
+    background-image: url('https://themewagon.com/wp-content/uploads/2020/10/MaleFashion.png');
+  }
+  50% {
+    background-image: url('https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/03/reid-fashion-website-template.jpg');
+  }
+  75% {
+    background-image: url('https://image1.jdomni.in/preview-theme/0/1/4/94b7ce88-3a9c-4f14-8ed1-6aae9d9ae537.jpeg');
+  }
+  100% {
+    background-image: url('https://images01.nicepagecdn.com/page/10/99/website-template-preview-109962.jpg');
+  }
+}
