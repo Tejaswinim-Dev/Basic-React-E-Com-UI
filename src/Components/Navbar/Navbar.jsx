@@ -18,10 +18,10 @@ function Navbar() {
         <Link to="/profile">
           <i className="bi bi-person-circle text-light mx-3"></i>
         </Link>
-        <Link>
+        <Link to="/cart">
           <i className="bi bi-cart text-light mx-3"></i>
         </Link>
-        <Link>
+        <Link to="/wishlist">
           <i className="bi bi-bag-heart text-light mx-3"></i>
         </Link>
 
